@@ -50,6 +50,7 @@ from Bio import SeqIO
 
 query = str(next(SeqIO.parse("query.fasta", "fasta")).seq)
 templates = [str(rec.seq) for rec in SeqIO.parse("templates.fasta", "fasta")]
+```
 ---
 
 ### 🧾 Expected Output Format
