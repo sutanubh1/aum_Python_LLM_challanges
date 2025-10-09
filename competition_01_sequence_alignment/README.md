@@ -82,11 +82,11 @@ The output should be a structured table that includes alignment results and runt
 | Template_23 | 224 | 1.72 |
 
 At the end of the output, print the total compute time and the query-template alignment for the best-fit template only.
----
-### Deliverables
 
-Each submission must include the following files: Your final code implementation (.py or .ipynb) and the output file (.txt or .docx)
+### Deliverables
 ---
+Each submission must include the following files: Your final code implementation (.py or .ipynb) and the output file (.txt or .docx)
+
 ### 📊 Evaluation Components
 
 | Component | Description | Points |
