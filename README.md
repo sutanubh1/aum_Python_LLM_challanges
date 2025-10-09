@@ -27,6 +27,6 @@ Each folder represents an independent competition.
 
 Maintained by
 
-Dr. Sutanu Bhattacharya
-Assistant Professor, Computer Science
+Dr. Sutanu Bhattacharya,
+Assistant Professor, Computer Science,
 Auburn University at Montgomery (AUM)
