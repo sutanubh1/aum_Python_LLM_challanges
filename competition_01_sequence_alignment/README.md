@@ -23,10 +23,8 @@ Your goal is to identify which template(s) best match the query sequence using s
 
 3. **Compute the alignment score** for each query–template pair.
 
-4. **Normalize your alignment scores** by alignment length:
-   \[
-   \text{Normalized Score} = \frac{\text{Alignment Score}}{\text{Alignment Length}}
-   \]
+4. **Normalize your alignment scores by alignment length:**  
+`Normalized Score = Alignment Score / Alignment Length`
 
 5. **Measure the total computation time** required to align the **query sequence against all 100 templates**.  
    - Record this time in seconds (or milliseconds).  
