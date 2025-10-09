@@ -52,10 +52,28 @@ query = str(next(SeqIO.parse("query.fasta", "fasta")).seq)
 templates = [str(rec.seq) for rec in SeqIO.parse("templates.fasta", "fasta")]
 ```
 ---
+### ⚙️ Rules and Notes
+Do not use any prebuilt alignment libraries (e.g., Bio.pairwise2, Bio.Align, parasail, or SeqAlign).
+
+You may use standard Python libraries such as numpy, pandas, matplotlib, seaborn, and csv.
+
+Implement gap penalties explicitly (e.g., gap_open = -5, gap_extend = -1).
+
+The similarity matrix file will be provided — do not hardcode BLOSUM62 or any external matrix by name.
+
+Ensure your implementation can handle variable-length sequences without crashing.
+
+Include clear comments and docstrings explaining the purpose of each function and variable.
+
+Proper normalization of scores is mandatory before ranking templates.
+
+Your code must report total runtime for the full query vs. all 100 templates.
+
+---
 
 ### 🧾 Expected Output Format
 
-The output should be a structured table (CSV or Markdown format) that includes alignment results and runtime.
+The output should be a structured table that includes alignment results and runtime.
 
 | Template ID | Raw Score | Normalized Score |
 |--------------|------------|------------------|
@@ -63,7 +81,11 @@ The output should be a structured table (CSV or Markdown format) that includes a
 | Template_45 | 230 | 1.78 |
 | Template_23 | 224 | 1.72 |
 
-At the end of the output, print the query-template alignment for the best-fit template only.
+At the end of the output, print the total compute time and the query-template alignment for the best-fit template only.
+
+### Deliverables
+
+Each submission must include the following files: Your final code implementation (.py or .ipynb) and the output file (.txt or .docx)
 
 ### 📊 Evaluation Components
 
