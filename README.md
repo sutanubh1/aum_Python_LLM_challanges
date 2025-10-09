@@ -24,3 +24,9 @@ Each folder represents an independent competition.
 - Gain hands-on experience 
 
 ---
+
+Maintained by
+
+Dr. Sutanu Bhattacharya
+Assistant Professor, Computer Science
+Auburn University at Montgomery (AUM)
