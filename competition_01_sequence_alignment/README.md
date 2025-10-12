@@ -2,8 +2,8 @@
 
 ### Overview
 You are provided with:
-- A **query protein sequence** (e.g., a newly discovered protein), and  
-- A **database of 100 protein sequences** (template proteins).  
+- A **query protein sequence** (query.fasta), and  
+- A **database of ~75 protein sequences** (template proteins).  
 
 Your goal is to identify which template(s) best match the query sequence using sequence alignment techniques.
 
