@@ -19,7 +19,7 @@ Your goal is to identify which template(s) best match the query sequence using s
    You may choose *one* algorithm. Your implementation must be correct, efficient, and clearly explained in your code.
 
 2. **Compare the query with each of the 10K template sequences.**
-   - Use a **similarity matrix** (provided) to calculate alignment scores.  
+   - Use a **similarity matrix** (provided) and Gap penalty = -5 to calculate alignment scores. 
 
 3. **Compute the alignment score** for each query–template pair.
 
