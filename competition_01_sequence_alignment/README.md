@@ -12,9 +12,8 @@ Your goal is to identify which template(s) best match the query sequence using s
 ## 🧠 Task Description
 
 ### Your Task
-1. **Implement either:**
-   - **Needleman–Wunsch (Global Alignment)**, or  
-   - **Smith–Waterman (Local Alignment)**  
+1. **Implement:**
+   - **Needleman–Wunsch (Global Alignment)**
 
    You may choose *one* algorithm. Your implementation must be correct, efficient, and clearly explained in your code.
 
@@ -82,9 +81,9 @@ Each submission must include the following files: Your final code implementation
 
 | Component | Description | Points |
 |------------|-------------|--------|
-| **Algorithm Implementation** | Correct and efficient Needleman–Wunsch or Smith–Waterman code | **20** |
-| **Handling Input Data** | Proper parsing of query and template FASTA sequences | **10** |
-| **Ranking & Output Format** | Correct computation, normalization, and top matches identification | **10** |
-| **Code Explanation** | Clear comments, descriptive variables, and logical structure | **5** |
-| **Computation Time Measurement** | Accurate reporting of total runtime | **5** |
-| **Total** | | **50 points** |
+| **Algorithm Implementation** | Correct and efficient Needleman–Wunsch | **40** |
+| **Handling Input Data** | Proper parsing of query and template FASTA sequences | **20** |
+| **Ranking & Output Format** | Correct computation, normalization, and top matches identification | **20** |
+| **Code Explanation** | Clear comments, descriptive variables, and logical structure | **10** |
+| **Computation Time Measurement** | Accurate reporting of total runtime | **10** |
+| **Total** | | **100 points** |
