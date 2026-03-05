@@ -75,7 +75,7 @@ At the end of the output, print the total compute time and the query-template al
 
 ### Deliverables
 ---
-Each submission must include the following files: Your final code implementation (.py or .ipynb) and the output file (.txt or .docx). Submit them to sbhatta4@aum.edu by December 2, 2025.
+Each submission must include the following files: Your final code implementation (.py or .ipynb) and the output file (.txt or .docx). Submit them to sbhatta4@aum.edu or via Canvas.
 
 ### 📊 Evaluation Components
 
