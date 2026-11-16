@@ -21,7 +21,7 @@
 | File | Description |
 |---|---|
 | `AI_meets_Chemistry_Assignment_Fall26.pdf` | The assignment handout, with step-by-step instructions and Questions 1–6 |
-| `AI_meets_Chemistry_Assignment_Fall26.tex` | LaTeX source of the handout |
+
 
 ## How to start
 
